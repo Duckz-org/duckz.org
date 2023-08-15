@@ -1,3 +1,3 @@
-# Cyberstrike.nl
+# Duckz.org
 
-Homepage for CyberStrike built using Astro and deployed using Github pages. 
+Homepage for Duckz.org built using Astro and deployed using Github pages. 

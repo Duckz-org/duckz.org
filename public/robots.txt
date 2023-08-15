@@ -1,5 +1,5 @@
 User-agent: *
-Sitemap: https://cyberstrike.nl/sitemap-index.xml
+Sitemap: https://duckz.org/sitemap-index.xml
 Disallow: /.well-known/
 Disallow: /admin/
 Disallow: /documents/

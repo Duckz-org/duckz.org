@@ -30,48 +30,26 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, we're CyberStrike"
-					tagline="Making the world a safer place through advanced vulnerability research and capability development."
+					title="Hello, we're DuckDynasty"
+					tagline="Cheesing CTF challenges across the world."
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Research</Pill>
-						<Pill><Icon icon="code" size="1.33em" /> Develop</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Contribute</Pill>
+						<Pill><Icon icon="pencil-line" size="1.33em" /> Learn</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Plant flag</Pill>
+						<Pill><Icon icon="microphone-stage" size="1.33em" /> Explain</Pill>
 					</div>
 				</Hero>
+
+				<picture>
+					<source	 src="/assets/logos/logo.webp" type="image/webp" />
+					<source srcset="/assets/logos/logo.jpg" type="image/jpeg"> 
+					<img src="/assets/logos/logo.jpg" width="480" height="620" alt="The logo of DuckDynasty: a hyperrealistic image of two blue ducks">
+				</picture>
 			</header>
 
 			<Skills />
 		</div>
-
-		<main class="wrapper stack gap-20 lg:gap-48">
-			<section class="section with-background with-cta">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Take a look below at some of our featured work from the past few years.</p>
-				</header>
-
-				<div class="gallery">
-					<Grid variant="offset">
-						{
-							projects.map((project) => (
-								<li>
-									<PortfolioPreview project={project} />
-								</li>
-							))
-						}
-					</Grid>
-				</div>
-
-				<div class="cta">
-					<CallToAction href="/work/">
-						View All
-						<Icon icon="arrow-right" size="1.2em" />
-					</CallToAction>
-				</div>
-			</section>
-		</main>
 
 		<ContactCTA />
 	</div>
