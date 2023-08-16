@@ -1,3 +1,3 @@
-# Duckz.org
+# web-homepage
 
-Homepage for Duckz.org built using Astro and deployed using Github pages. 
+Homepage for DuckDynasty built using Astro and deployed using Github pages. 
