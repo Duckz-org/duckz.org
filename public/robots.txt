@@ -1,5 +1,4 @@
 User-agent: *
 Sitemap: https://duckz.org/sitemap-index.xml
 Disallow: /.well-known/
-Disallow: /admin/
 Disallow: /documents/
