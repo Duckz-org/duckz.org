@@ -5,7 +5,7 @@ import Icon from './Icon.astro';
 
 <aside>
 	<h2>Want to meet us personally?</h2>
-	<CallToAction href="mailto:info@duckz.org">
+	<CallToAction href={`mailto:${import.meta.env.PUBLIC_CONTACT_EMAIL}`}>
 		Send Us a Message
 		<Icon icon="paper-plane-tilt" size="1.2em" />
 	</CallToAction>
