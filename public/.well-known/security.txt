@@ -1,5 +1,5 @@
-Contact: mailto:info+security@duckz.org
-Encryption: https://duckz.org/documents/cs-pgp-key.asc
+Contact: mailto:security@duckz.org
+Encryption: https://duckz.org/documents/duckz-pgp-key.asc
 Expires: 2024-01-01T00:00:00.000Z
 Preferred-Languages: en
 Canonical: https://duckz.org/.well-known/security.txt
