@@ -13,10 +13,10 @@ const {
 ---
 
 <!--
- ______________________________________
-/ hello, i'm gatekeeping vulnerability \
-\ research                             /
- --------------------------------------
+ __________________
+/ hello, i'm       \
+\ hoarding flags   /
+ ------------------
       \                   / \  //\
        \    |\___/|      /   \//  \\
             /0  0  \__  /    //  | \ \    
@@ -35,7 +35,11 @@ const {
                                                                   /.-~
  -->
 
- 
+<!-- Security options -->
+<meta http-equiv="X-Frame-Options" content="deny"> 
+<meta http-equiv="X-Content-Type-Options" content="nosniff"> 
+<meta http-equiv="Referrer-Policy" content="origin">
+
 <!-- Content Security Policy (CSP)
   - We are accepting the risk of arbitrary style attributes 
   - Additionally, we are using HSTS instead of upgrade-insecure-requests
@@ -68,8 +72,9 @@ require-trusted-types-for 'script';" />
 <meta name='twitter:description' content={description}>
 
 <!-- SEO embed image -->
-<meta property="og:image"  content="/assets/logos/logo.webp">
-<meta name="twitter:image" content="/assets/logos/logo.webp">
+<meta property="og:image"  content={`${import.meta.env.PUBLIC_BASE_URL}/assets/logos/logo.webp`}>
+<meta name="twitter:image" content={`${import.meta.env.PUBLIC_BASE_URL}/assets/logos/logo.webp`}>
+<meta name="twitter:image:src" content={`${import.meta.env.PUBLIC_BASE_URL}/assets/logos/logo.webp`}>
 
 <!-- embed color -->
 <meta name="theme-color" content="#a61111" />
